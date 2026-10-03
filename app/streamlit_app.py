@@ -139,3 +139,7 @@ with tab_analysis:
             "- Incidents and closures are not predicted; two outage periods were excluded.\n"
             "- Largest errors are during the morning peak and on public holidays."
         )
+st.caption(
+    "Data: Metro Interstate Traffic Volume, UCI Machine Learning Repository "
+    "(CC BY 4.0). Build as a portfolio project."
+)
