@@ -39,6 +39,7 @@ st.write(
 
 # ----------  Sidebar ----------
 st.sidebar.header("Settings")
+st.sidebar.caption("These settings apply to the Forcast tab only.")
 model_label = st.sidebar.selectbox("Model", ["B: 24 hours ahead", "A: 1 hour ahead"])
 pred_col = "pred_b" if model_label.startswith("B") else "pred_a"
 
